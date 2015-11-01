@@ -12,3 +12,5 @@ commands:
       description: Set Tab name
       permission: rivcore.settabname
       permission-message: §cRivCore §8| §cYou do not have permission to run this command! (rivcore.settabname)
+   resettabname:
+      description: Resets your tab name!

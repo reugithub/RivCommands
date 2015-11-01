@@ -6,7 +6,9 @@ import java.util.logging.Logger;
 
 
 
+
 import me.rivwhall05.RivCommands.commands.ant;
+import me.rivwhall05.RivCommands.commands.resettabname;
 import me.rivwhall05.RivCommands.commands.rubify;
 import me.rivwhall05.RivCommands.commands.settabname;
 
@@ -28,6 +30,7 @@ public class Main
     getCommand("ant").setExecutor(new ant());
     getCommand("rubify").setExecutor(new rubify());
     getCommand("settabname").setExecutor(new settabname());;
+    getCommand("resettabname").setExecutor(new resettabname());;
   }
   
   public void onDisable()

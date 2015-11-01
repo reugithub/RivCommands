@@ -20,7 +20,7 @@ public class settabname
 			String[] args) {
 		if (cmd.equalsIgnoreCase("settabname")) {
 			if (!(sender instanceof Player)) {
-				sender.sendMessage("For players only.. .k.");
+				sender.sendMessage("For players only.. k.");
 
 			} else {
 				Player p = (Player) sender;
@@ -32,6 +32,7 @@ public class settabname
 					p.sendMessage(ChatColor.DARK_RED + "You need to type in some text!");
 				} else {
 					p.setPlayerListName(ChatColor.translateAlternateColorCodes('&', message(args)));
+					p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cRivCommands &8| &aSuccessfully &cset your tab name to" + message(args)));
 				}
 
 			}
