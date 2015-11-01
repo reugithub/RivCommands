@@ -1,0 +1,14 @@
+name: RivCommands
+main: me.rivwhall05.RivCommands.core.Main
+author: rivwhall05
+version: 1.0
+description: Custom Commands for staff!
+commands:
+   ant:
+      description: Special Command for ant!
+   rubify:
+      description: Reubens ban hammer.
+   settabname:
+      description: Set Tab name
+      permission: rivcore.settabname
+      permission-message: §cRivCore §8| §cYou do not have permission to run this command! (rivcore.settabname)
