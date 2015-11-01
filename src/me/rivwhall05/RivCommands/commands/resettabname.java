@@ -27,7 +27,7 @@ public class resettabname
       }
       else
       {
-        p.setPlayerListName(p.getDisplayName());
+        p.setPlayerListName(p.getName());
         
       }
     }
