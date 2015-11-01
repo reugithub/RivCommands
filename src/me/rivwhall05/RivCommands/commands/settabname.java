@@ -20,7 +20,7 @@ public class settabname
 			String[] args) {
 		if (cmd.equalsIgnoreCase("settabname")) {
 			if (!(sender instanceof Player)) {
-				sender.sendMessage("For players only.. k.");
+				sender.sendMessage("For players only.. .k.");
 
 			} else {
 				Player p = (Player) sender;
